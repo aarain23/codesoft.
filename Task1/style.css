@@ -1,0 +1,278 @@
+header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.nav1, .nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav1 div, .nav2 div, .nav2 ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav1 div i, .nav1 div span {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.nav1 span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav1 a, .nav2 a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 10px;
+}
+
+.nav2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav2 li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav2 form input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.nav2 form button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.buy-now-btn {
+    background-color: #555;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.buy-now-btn:hover {
+    background-color: #333;
+}
+
+.nav2 i.fa-address-card-o {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+.slider {
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.slider-content {
+    position: relative;
+}
+
+.slider img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.slider h2.animated-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 36px;
+    z-index: 1;
+    width: 100%;
+}
+
+.slider-btn {
+    position: absolute;
+    bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #555;
+    color: #fff;
+    transition: background-color 0.3s;
+    z-index: 1;
+}
+
+.slider-btn:nth-child(1) {
+    left: 0;
+}
+
+.slider-btn:nth-child(2) {
+    right: 0;
+    left: auto;
+}
+
+
+
+.pricing {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.pricing-option {
+    display: inline-block;
+    width: 30%; /* Adjust as needed */
+    margin: 0 10px; /* Adjust margin as needed */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.pricing-option h3 {
+    font-family: 'YourFont1', sans-serif; /* Use your desired font */
+    color: #555;
+}
+
+.pricing-option p {
+    margin-top: 10px;
+    color: #777;
+}
+
+
+
+.about-us {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.about-us-content,
+.about-us-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.about-us-content h3,
+.about-us-content p,
+.about-us-image p {
+    margin: 10px 0;
+}
+
+.about-us-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.about-us-image button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #555;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+
+
+.our-services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.service {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+.service h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.service button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #555;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.service button:hover {
+    background-color: #333;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
